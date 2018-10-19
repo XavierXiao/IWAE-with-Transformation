@@ -1,2 +1,2 @@
 # IWAE-with-Transformation
-Pytorch implementaion of IWAE with Affine Transformation
+Pytorch implementaion of IWAE with Affine/TPS Transformation
