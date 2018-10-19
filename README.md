@@ -1,2 +1,3 @@
 # IWAE-with-Transformation
-Pytorch implementaion of IWAE with Affine/TPS Transformation
+Pytorch implementaion of IWAE (Importance Weighted Auto Encoder) with Affine/TPS Transformation.
+
