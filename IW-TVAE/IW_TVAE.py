@@ -41,7 +41,7 @@ class Encoder(nn.Module):
         hidden_dim = 200
         output_dim = 50
         '''
-        super(BasicBlock, self).__init__()
+        super(Encoder, self).__init__()
         self.input_dim = input_dim
         self.hidden_dim = hidden_dim
         self.output_dim = output_dim
