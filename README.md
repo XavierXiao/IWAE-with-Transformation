@@ -40,6 +40,7 @@ Method  | NLL of IWAE| NLL of Multi-sample VAE
 Codes are partly based on Xinqiang Ding's implementation of IWAE: https://github.com/xqding/Importance_Weighted_Autoencoders
 
 Reference:
+
 [1]Jaderberg, Max, Karen Simonyan, and Andrew Zisserman. "Spatial transformer networks." Advances in neural information processing systems. 2015.
 
 [2]Burda, Yuri, Roger Grosse, and Ruslan Salakhutdinov. "Importance weighted autoencoders." arXiv preprint arXiv:1509.00519 (2015).
