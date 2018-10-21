@@ -35,3 +35,12 @@ Method  | NLL of IWAE| NLL of Multi-sample VAE
 | Plain VAE  |  98.2965  |93.9943|
 | TVAE-affine  | 96.0623   |92.7514|
 | TVAE-TPS  | 93.9956  |92.1647|
+
+
+Codes are partly based on Xinqiang Ding's implementation of IWAE: https://github.com/xqding/Importance_Weighted_Autoencoders
+
+Reference:
+[1]Jaderberg, Max, Karen Simonyan, and Andrew Zisserman. "Spatial transformer networks." Advances in neural information processing systems. 2015.
+[2]Burda, Yuri, Roger Grosse, and Ruslan Salakhutdinov. "Importance weighted autoencoders." arXiv preprint arXiv:1509.00519 (2015).
+[3]Dupont, Emilien. "Joint-VAE: Learning Disentangled Joint Continuous and Discrete Representations." arXiv preprint arXiv:1804.00104 (2018).
+[4]Chen, Tian Qi, et al. "Isolating Sources of Disentanglement in Variational Autoencoders." arXiv preprint arXiv:1802.04942 (2018).
