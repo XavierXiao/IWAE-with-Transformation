@@ -21,15 +21,6 @@ class MNIST_Dataset(Dataset):
     '''
     ramdomly binarized MNIST
     '''
-
-class OMNIGLOT_Dataset(Dataset):
-    def __init__(self, image):
-        super(OMNIGLOT_Dataset).__init__()
-        self.image = image
-    def __len__(self):
-        return self.image.shape[0]
-    def __getitem__(self, idx):
-        return self.image[idx, :]
     
 class Encoder(nn.Module):
     '''
