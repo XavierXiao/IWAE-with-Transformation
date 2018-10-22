@@ -30,7 +30,7 @@ Method  | NLL|
 
 Finally importance weighted sample is used, which is called "IW-TVAE". Experiment with k=5 (5 samples from posterior) is done and results are shown below. IW-TVAE is compared with usual TVAE that uses multiple monte carlo samples from posterior to estimated log probability and KL (although KL can be computed in closed form, we still estimate by MC).
 
-Method  | NLL of IWAE| NLL of Multi-sample VAE
+Method  | NLL of Multi-sample VAE| NLL of  IWAE
 | ------------- | ------------- |------------- |
 | Plain VAE  |  98.2965  |93.9943|
 | TVAE-affine  | 96.0623   |92.7514|
