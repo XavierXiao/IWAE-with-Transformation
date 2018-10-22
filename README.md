@@ -1,7 +1,7 @@
 # IWAE-with-Transformation
 Pytorch implementaion of IWAE (Importance Weighted Auto Encoder) with Affine/TPS Transformation.
 
-In this work, I try to combine IWAE (Burda et al.) with Spatial Transformer Networks (Jaderberg et al.), and the new model is called Tranformer Varaitional Auto Encoder (TVAE). The objective of this model is trying to disentangle some components of the latent variables to make them have specific meaning (here the meaning is spatial transformatiion). Disentangle latent space is a hot research area with many recent works (Lelarge et al; Dupont et al; Chen et al.).
+In this work, I try to combine IWAE (Burda et al.) with Spatial Transformer Networks (Jaderberg et al.), and the new model is called Importance Weighted Tranformer Varaitional Auto Encoder (IW-TVAE). The objective of this model is trying to disentangle some components of the latent variables to make them have specific meaning (here the meaning is spatial transformatiion). Disentangle latent space is a hot research area with many recent works (Lelarge et al; Dupont et al; Chen et al.).
 
 Our model decomposes the laten space in two parts: z and u. z is the usual laten variables whose meaning is not clear, while u is laten variables that controls spatial transformation. Like STN, I incorporate affine transformation and Thin Plate Spline transformation.
 
